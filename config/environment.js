@@ -38,7 +38,7 @@ module.exports = function(environment) {
       authenticationRoute: 'login',
       authorizer: 'simple-auth-authorizer:oauth2-bearer',
       crossOriginWhitelist: ['http://localhost:3000'],
-      routeAfterAuthentication: 'dashboard',
+      routeAfterAuthentication: 'internal',
       session: 'session:me'
     },
 

@@ -1,5 +1,5 @@
 import ApplicationAdapter from './application';
-import config from 'client/config/environment';
+import config from 'ember-cli-example-app-for-github/config/environment';
 
 export default ApplicationAdapter.extend({
   type: 'me',
